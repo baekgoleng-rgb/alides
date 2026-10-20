@@ -3,11 +3,14 @@
 
 # 만들어진 결과물·중간 파일 (스크립트로 다시 만들 수 있음)
 output/*.pptx
-build/*/media/
+build/*/media/*
 build/*/fig/
 *.mp4
 *.webm
 __pycache__/
+
+# 다시 만들 수 없는 AI 생성물 (Google Flow) → 예외로 저장소에 보관
+!build/*/media/flow_*
 
 # 예전 임시 제작 폴더 (lecture-slides 스킬로 대체됨)
 tools/
