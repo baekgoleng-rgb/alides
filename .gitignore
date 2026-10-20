@@ -1,0 +1,16 @@
+# 교과서 원본 (출판사 저작물 → 저장소에 올리지 않음)
+*.pdf
+
+# 만들어진 결과물·중간 파일 (스크립트로 다시 만들 수 있음)
+output/*.pptx
+build/*/media/
+build/*/fig/
+*.mp4
+*.webm
+__pycache__/
+
+# 예전 임시 제작 폴더 (lecture-slides 스킬로 대체됨)
+tools/
+
+# Claude Code 개인 설정
+.claude/settings.local.json
